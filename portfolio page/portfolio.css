@@ -1,0 +1,192 @@
+
+#ldlogo{
+    padding-left: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:2px 2px 5px black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style-type: none;
+    padding-right: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.letschat{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5rem;
+}
+#arrow{
+    color: white;
+}
+#divbtn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
+    border-radius:15px;
+    transition:  font-size 1s;
+}
+#divbtn:hover{
+    font-size: 20px;
+}
+.homepage{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+#homeimage{
+    width: 50rem;
+}
+/* #homeimage{
+   position: absolute;
+   top: 150px;
+   right: 100px;
+   width: 45%;
+   height: 58%;
+} */
+/* .socials{
+    padding-left: 66rem;
+}
+.socials a{
+    text-decoration: none;
+} */
+#copy{
+    padding-top: 1.5rem;
+}
+nav ul li a:hover{
+    color: red;
+    text-shadow:2px 2px 5px black;
+}
+#team{
+    padding-left: 15rem;
+    font-size: 23px;
+}
+#mypic{
+    width: 300px;
+    height: 400px;
+}
+.aboutlota{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    font-size: 18px;
+}
+/* #am{
+    position: absolute;
+    top: 32rem;
+    right: 40rem;
+    text-decoration: underline;
+} */
+#am:hover{
+    color: darkblue;
+    text-shadow:2px 2px 5px white;
+}
+#hr1{
+    margin-right: 30px;
+}
+/* #amtext{
+ position: absolute;
+ top: 36rem;
+ left: 29rem;
+ font-size: 20px;
+} */
+.contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contus{
+    color: white;
+    text-decoration: none;
+}
+#contus:hover{
+    color: darkblue;
+    text-shadow:2px 2px 5px white;
+}
+.socials1 a{
+    text-decoration: none;
+}
+#circlearrowup{
+    margin-left: 380px;
+    position: fixed;
+    bottom: 10px;
+}
+#email{
+    width: 30rem;
+    border-radius: 5px;
+}
+#Firstname{
+    width: 14.3rem;
+    border-radius:5px
+}
+#Lastname{
+    width: 14.5rem;
+    border-radius:5px
+}
+#country{
+    width: 18.5rem;
+    border-radius:5px
+}
+#number{
+    width: 13rem;
+    border-radius:5px
+}
+#Gender{
+    width: 5rem;
+    border-radius:5px  
+}
+#submit{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+#skillimg{
+    width: 25rem;
+    height: 27rem;
+}
+#skilltext:hover{
+    color: darkblue;
+    text-shadow:2px 2px 5px white;
+}
+#proj{
+    font-size: 25px;
+}
+#projectimg{
+    width: 100px;
+    height: 100px;
+}
+#github{
+    color: white;
+    text-decoration: none;
+}
+
+#github:hover{
+    text-shadow:2px 2px 5px white;
+    text-decoration: underline;
+}
+#hrproj{
+    margin-right: 35px;
+}
+.projectpics{
+    display: flex;
+    flex-direction: row;
+}
+#cp{
+    text-decoration: none;
+}
